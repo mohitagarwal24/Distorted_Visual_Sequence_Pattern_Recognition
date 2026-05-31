@@ -36,8 +36,8 @@ class Config:
 
     # --- Training ---
     batch_size: int = 64
-    epochs: int = 15
-    lr: float = 1e-3
+    epochs: int = 30
+    lr: float = 5e-4
     weight_decay: float = 1e-5
     val_fraction: float = 0.1
     num_workers: int = 0          # Windows + notebooks are safest with 0
