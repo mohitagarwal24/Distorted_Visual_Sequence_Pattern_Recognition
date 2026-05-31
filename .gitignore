@@ -1,0 +1,12 @@
+# Data & model artifacts (large / regenerable)
+data/
+outputs/
+*.pt
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
